@@ -1,0 +1,7 @@
+ - id: meson test
+   name: meson test
+   description: Run all meson tests
+   entry: meson test -C build/
+   language: system
+   always_run: true
+   pass_filenames: false
