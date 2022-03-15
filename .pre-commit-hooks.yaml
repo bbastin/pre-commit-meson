@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: CC0-1.0
- - id: meson test
+ - id: meson-test
    name: meson test
    description: Run all meson tests
    entry: meson test -C build/
